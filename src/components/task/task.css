@@ -1,8 +1,19 @@
 .task {
-  background-color: aquamarine;
+  background-color: white;
   border-radius: 8px;
-  box-shadow: 1px 2px 1px 0 black;
-  max-width: 200px;
+  box-shadow: 1px 2px 1px 0 #4448;
   padding: 16px;
-  margin: 0 8px;
+  height: 100%;
+  width: 100%;
+  transition: box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+.task:hover {
+  box-shadow: 1px 2px 8px 0 #444a;
+}
+.task__text {
+  flex: 1;
+  margin: 0;
+  white-space: pre;
 }

@@ -14,6 +14,7 @@ class List extends HTMLElement {
     data-title="${item.title}"
     data-text="${item.text}"
     data-id="${item.id}"
+    data-timeout="${item.timeout || ''}"
 ></um-task>
 `).join('');
   }

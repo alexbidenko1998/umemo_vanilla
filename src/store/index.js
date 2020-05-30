@@ -1,9 +1,9 @@
-const setters = {
-  tasks: {},
-};
-
 const privateStore = {
   tasks: JSON.parse(localStorage.data_task || '[]')
+};
+
+const setters = {
+  tasks: {},
 };
 
 const store = {

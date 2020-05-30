@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="493abfd3-8b5f-4ffd-a19f-618fae00f9be" name="Default Changelist" comment="" />
+    <list default="true" id="493abfd3-8b5f-4ffd-a19f-618fae00f9be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/components/redact/redact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/redact/redact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/umemo-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/umemo-config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +23,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1cb3vX1bkMP53bP8DFQzQKi2Rps" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +36,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Projects/phaser" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -44,7 +52,8 @@
       <option name="presentableId" value="Default" />
       <updated>1590783696573</updated>
       <workItem from="1590783698813" duration="2941000" />
-      <workItem from="1590788703300" duration="5930000" />
+      <workItem from="1590788703300" duration="7672000" />
+      <workItem from="1590834299484" duration="7050000" />
     </task>
     <servers />
   </component>
@@ -76,5 +85,9 @@
       <screen x="0" y="0" width="1366" height="732" />
     </state>
     <state width="1320" height="175" key="GridCell.Tab.0.right/0.0.1366.732@0.0.1366.732" timestamp="1590786647761" />
+    <state x="360" y="105" width="645" height="522" key="find.popup" timestamp="1590839440247">
+      <screen x="0" y="0" width="1366" height="732" />
+    </state>
+    <state x="360" y="105" width="645" height="522" key="find.popup/0.0.1366.732@0.0.1366.732" timestamp="1590839440247" />
   </component>
 </project>
