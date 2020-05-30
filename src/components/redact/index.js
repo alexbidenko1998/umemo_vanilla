@@ -73,9 +73,9 @@ class App extends HTMLElement {
   }
   changeMessage(query) {
     const el = this.querySelector(query);
-    el.hidden = false;
+    el.style.display = 'block';
     setTimeout(() => {
-      el.hidden = true;
+      el.style.display = '';
     }, 3000);
   }
 }

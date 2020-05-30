@@ -8,8 +8,15 @@ class List extends HTMLElement {
       this.render();
     };
   }
+  render() {
+    this.innerHTML = `
+<section class="list">
+  ${this.list()}
+</section>
+  `;
+  }
   list() {
-    return store.tasks.map(item => `
+    return [...store.tasks].reverse().map(item => `
 <um-task
     data-title="${item.title}"
     data-text="${item.text}"
@@ -17,13 +24,6 @@ class List extends HTMLElement {
     data-timeout="${item.timeout || ''}"
 ></um-task>
 `).join('');
-  }
-  render() {
-    this.innerHTML = `
-<section class="list">
-  ${this.list()}
-</section>
-  `;
   }
 }
 

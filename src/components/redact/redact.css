@@ -23,10 +23,12 @@
 .redact__result--success {
   color: green;
   margin-bottom: 16px;
+  display: none;
 }
 .redact__result--error {
   color: red;
   margin-bottom: 16px;
+  display: none;
 }
 .redact__title, .redact__text {
   display: block;
